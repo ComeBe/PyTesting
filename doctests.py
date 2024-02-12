@@ -16,8 +16,8 @@ def double(values):
     >>> double([])
     []
 
-    >>> double(["a", "b", "c"])
-    ["aa", "bb", "cc"]
+    >>> double(['a', 'b', 'c'])
+    ['aa', 'bb', 'cc']
 
     >>> double([True, None])
     Traceback (most recent call last):
